@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.981" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="To validate login functionality" name="To verify login funcationality with valid credentials - Example #1.1" time="11.754">
+<failure type="java.lang.AssertionError" message="Home page is not displayed">
+<![CDATA[java.lang.AssertionError: Home page is not displayed
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.stepdefinition.LoginPageSteps.user_lands_on_home_page(LoginPageSteps.java:94)
+	at ?.user lands on home page(file:///C:/Users/HP/eclipse-workspace/CucumberDemoFull/src/test/resources/FeatureFile/logIn.feature:27)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches the web application with valid url......................passed
+And user enter valid "student1"details and "Password123"....................passed
+When user clicks login button...............................................passed
+Then user lands on home page................................................failed
+And user verifies the url and congragulation message........................skipped
+]]></system-out>
+</testcase>
+</testsuite>
